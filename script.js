@@ -11,7 +11,11 @@ fetch(apiUrl)
   })
   .then(data => {
     // Handle the API response data here
-    console.log(data);
+    // console.log(data);
+    var contestStartTime = data.time.start;
+    var contestStartTimeMillis = contestStartTime*1000;
+    const twohours = 2 * 60 * 60 * 1000;
+    console.log(new Date(contestStartTimeMillis-twohours));
   })
   .catch(error => {
     // Handle errors during the fetch
