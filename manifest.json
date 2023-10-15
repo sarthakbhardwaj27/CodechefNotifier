@@ -1,0 +1,11 @@
+{
+    "name": "Codechef Contest Alerts",
+    "version": "1.0.0",
+    "description": "Upcoming Codechef Contests",
+    "manifest_version": 3,
+    "author": "Sarthak Bhardwaj",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Contest Details"
+    }
+}

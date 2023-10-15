@@ -1,3 +1,1 @@
-
-  .then(data => {
-    // Handle the API response data here
+console.log(new Date(contestStartTimeMillis-twohours));
